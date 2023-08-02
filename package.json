@@ -1,5 +1,7 @@
 {
-  "name": "ewpmodule",
+  "name": "@kast96/bxmodule",
+  "version": "0.0.1",
+  "description": "",
   "main": "dist/index.js",
   "bin": "./dist/index.js",
   "preferGlobal": true,
@@ -13,5 +15,14 @@
   "scripts": {
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "keywords": [
+    "cli",
+    "bitrix",
+    "modules"
+  ],
+  "author": "kast96",
+  "license": "MIT",
+  "repository": "https://github.com/kast96/bxmodule",
+  "homepage": "https://github.com/kast96/bxmodule#readme"
 }
