@@ -1,0 +1,17 @@
+{
+  "name": "ewpmodule",
+  "main": "dist/index.js",
+  "bin": "./dist/index.js",
+  "preferGlobal": true,
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
