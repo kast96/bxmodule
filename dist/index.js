@@ -1,4 +1,4 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
 "use strict";
 const { Command } = require("commander");
 const { create } = require("./commands/create");

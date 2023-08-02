@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
-  "bin": "./dist/index.js",
+  "bin": {
+    "bxmodule": "./dist/index.js"
+  },
   "preferGlobal": true,
   "dependencies": {
     "commander": "^11.0.0"

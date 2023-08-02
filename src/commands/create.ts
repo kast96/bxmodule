@@ -10,7 +10,7 @@ export const create = (name: string) => {
     return
   }
 
-  const inputPath = 'source'
+  const inputPath = path.join(__dirname, `../../source`);
   const outputPath = `${vendor}.${module}`
   const charset = 'utf8'
   

@@ -10,7 +10,7 @@ const create = (name) => {
         console.log(`Название модуля должено состоять из вендорного кода и кода модуля разделенные точкой: vendor.module`);
         return;
     }
-    const inputPath = 'source';
+    const inputPath = path.join(__dirname, `../../source`);
     const outputPath = `${vendor}.${module}`;
     const charset = 'utf8';
     createDirectoryPath(path.dirname(`${outputPath}/include.php`));
