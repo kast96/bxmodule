@@ -1,0 +1,1 @@
+use \{Vendor}\{Module}\Region;

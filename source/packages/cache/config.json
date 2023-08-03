@@ -1,0 +1,6 @@
+{
+  "name": "Пакет кеширования",
+  "include": {
+    "autoload": "./include/autoload.php"
+  }
+}

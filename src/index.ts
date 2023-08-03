@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
 const { Command } = require("commander")
-const { create } = require("./commands/create")
-const packageJson = require('../package.json');
+const packageJson = require('../package.json')
+
+import { create } from "./commands/create"
 
 const program = new Command()
 

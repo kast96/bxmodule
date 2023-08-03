@@ -1,0 +1,11 @@
+{
+  "name": "Пакет региональности",
+  "include": {
+    "autoload": "./include/autoload.php",
+    "options_use": "./include/options_use.php",
+    "options_after_tabs": "./include/options_after_tabs.php",
+    "options_setting_options": "./include/options_setting_options.php",
+    "default_options": "./include/default_options.php",
+    "lang_include": "./include/lang_include.php"
+  }
+}

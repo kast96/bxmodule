@@ -35,3 +35,9 @@ export const toUppercaseFirstChart = (word: string) => {
   const remainingLetters = word.slice(1)
   return firstLetterCap + remainingLetters
 }
+
+export const answer = async (readline: any, question: string) => {
+  return await new Promise<string>(resolve => {
+    readline.question(question, resolve)
+  })
+}
