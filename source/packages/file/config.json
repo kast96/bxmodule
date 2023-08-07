@@ -1,0 +1,6 @@
+{
+  "name": "Пакет управления файлами",
+  "include": {
+    "autoload": "./include/autoload.php"
+  }
+}

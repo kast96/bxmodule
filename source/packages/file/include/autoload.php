@@ -1,0 +1,1 @@
+		'\\{Vendor}\\{Module}\\File' => 'lib/file.php',
