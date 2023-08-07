@@ -8,7 +8,7 @@ import { create } from "./commands/create"
 const program = new Command()
 
 program.version(packageJson.version)
-program.description("CLI by EWP Company")
+program.description("CLI for create bitrix module")
 
 program.command('create')
 	.argument('<vendor.name>', 'Название модуля. Должено состоять из вендорного кода и кода модуля разделенные точкой: vendor.module')
