@@ -10,6 +10,7 @@ Loader::registerAutoLoadClasses(
 	'{vendor}.{module}',
 	[
 		'\\{Vendor}\\{Module}\\Main' => 'lib/main.php',
+		'\\{Vendor}\\{Module}\\Content' => 'lib/content.php',
 {include:autoload}
 	]
 );

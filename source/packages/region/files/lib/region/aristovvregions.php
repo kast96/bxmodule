@@ -8,7 +8,7 @@ class AristovVregions extends \{Vendor}\{Module}\Region
 {
 	public function getName()
 	{
-		return Loc::getMessage('EWP_AVIONIKA_OPTIONS_OPTION_REGION_TYPE_ARISTOV_VREGIONS');
+		return Loc::getMessage('{VENDOR}_{MODULE}_OPTIONS_OPTION_REGION_TYPE_ARISTOV_VREGIONS');
 	}
 
 	public function getCode()

@@ -34,7 +34,7 @@ abstract class Region
 		$arClasses = get_declared_classes();
 		foreach ($arClasses as $class)
 		{
-			if (is_subclass_of($class, '\Ewp\Avionika\Region'))
+			if (is_subclass_of($class, '\{Vendor}\{Module}\Region'))
 			{
 				$region = (new $class);
 				if ($returnArray)

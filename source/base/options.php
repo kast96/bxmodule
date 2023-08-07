@@ -22,32 +22,32 @@ Loc::loadMessages($_SERVER['DOCUMENT_ROOT'].BX_ROOT.'/modules/main/options.php')
 $aTabs = [
 	[
 		'DIV' => 'ewp_settings',
-		'TAB' => Loc::getMessage('EWP_AVIONIKA_OPTIONS_TAB_SETTINGS_TITLE'),
+		'TAB' => Loc::getMessage('{VENDOR}_{MODULE}_OPTIONS_TAB_SETTINGS_TITLE'),
 		'ICON' => 'main_settings',
-		'TITLE' => Loc::getMessage('EWP_AVIONIKA_OPTIONS_TAB_SETTINGS_TITLE_COMMON')
+		'TITLE' => Loc::getMessage('{VENDOR}_{MODULE}_OPTIONS_TAB_SETTINGS_TITLE_COMMON')
 	],
 	[
 		'DIV' => 'ewp_rights',
-		'TAB' => Loc::getMessage('EWP_AVIONIKA_OPTIONS_TAB_RIGHTS_TITLE'),
+		'TAB' => Loc::getMessage('{VENDOR}_{MODULE}_OPTIONS_TAB_RIGHTS_TITLE'),
 		'ICON' => 'main_settings',
-		'TITLE' => Loc::getMessage('EWP_AVIONIKA_OPTIONS_TAB_RIGHTS_TITLE_COMMON')
+		'TITLE' => Loc::getMessage('{VENDOR}_{MODULE}_OPTIONS_TAB_RIGHTS_TITLE_COMMON')
 	],
 ];
 
 $arSettingsOptions = [
 	[
 		'ID' => 'phone',
-		'NAME' => Loc::getMessage('EWP_AVIONIKA_OPTIONS_OPTION_PHONE'),
+		'NAME' => Loc::getMessage('{VENDOR}_{MODULE}_OPTIONS_OPTION_PHONE'),
 		'TYPE' => 'phone',
 	],
 	[
 		'ID' => 'show_licence',
-		'NAME' => Loc::getMessage('EWP_AVIONIKA_OPTIONS_OPTION_SHOW_LICENCE'),
+		'NAME' => Loc::getMessage('{VENDOR}_{MODULE}_OPTIONS_OPTION_SHOW_LICENCE'),
 		'TYPE' => 'checkbox',
 	],
 	[
 		'ID' => 'licence_checked',
-		'NAME' => Loc::getMessage('EWP_AVIONIKA_OPTIONS_OPTION_LICENCE_CKECKED'),
+		'NAME' => Loc::getMessage('{VENDOR}_{MODULE}_OPTIONS_OPTION_LICENCE_CKECKED'),
 		'TYPE' => 'checkbox',
 	],
 {include:options_setting_options}
